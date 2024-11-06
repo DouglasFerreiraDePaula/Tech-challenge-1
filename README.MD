@@ -32,10 +32,10 @@ Este é um diagrama de alto nível exemplificando um projeto com a api sendo uti
 ## Instalação
 
 1. Clone o repositório para sua máquina local:
-`git clone https://github.com/DouglasFerreiraDePaula/Tech-challenge---Fase-01.git`
+`git clone https://github.com/DouglasFerreiraDePaula/Tech-challenge-1.git`
 
 2. Navegue até o diretório do projeto:
-``cd Tech-challenge---Fase-01``
+``cd Tech-challenge-1``
 
 3. Crie um ambiente virtual:
 ``python -m venv .venv``
