@@ -5,7 +5,8 @@ Este é um projeto Flask que fornece uma API para acessar dados de produção do
 ## Diagrama de fluxo
 
 Este é um diagrama de alto nível exemplificando um projeto com a api sendo utilizada.
-IMG
+
+![alt text](Deploy.PNG)
 
 ## Estrutura do Projeto
 
@@ -31,10 +32,10 @@ IMG
 ## Instalação
 
 1. Clone o repositório para sua máquina local:
-`git clone https://github.com/sh1tao/vitibrasildatacltr.git`
+`git clone https://github.com/DouglasFerreiraDePaula/Tech-challenge---Fase-01.git`
 
 2. Navegue até o diretório do projeto:
-``cd vitibrasildatacltr``
+``cd Tech-challenge---Fase-01``
 
 3. Crie um ambiente virtual:
 ``python -m venv .venv``
@@ -51,13 +52,13 @@ No Unix/MacOS:
 ## Estrutura dos Arquivos
 
 ### run.py
-- O ponto de entrada principal do aplicativo Flask.
+- Execução do aplicativo utilizando o framework Flask.
 
 ### misc/__init__.py
-- Define a função create_app que cria e configura o aplicativo Flask, adicionando os recursos da API e define a rota para a página inicial..
+- Define a função create_app que cria e configura o aplicativo Flask, adicionando os recursos da API e define a rota para a página inicial.
 
 ### misc/api.py
-- Define os recursos da API usando Flask-RESTful. Inclui ApiResource para obter dados de produção.
+- Define os recursos da API usando Flask-RESTful. Inclui ApiResource para obter os dados.
 
 ### misc/scraping.py
 - Contém a lógica para fazer scraping dos dados do site VitiBrasil usando Requests e BeautifulSoup.
@@ -70,9 +71,9 @@ No Unix/MacOS:
 1. Execute o servidor Flask:
 ``python run.py``
 
-2. Abra seu navegador e navegue até ``http://localhost:5000/`` para ver a página inicial com instruções.
+2. Utilize a url ``http://localhost:5000/`` para acessar a página inicial com instruções de utilização da API.
 
-3. Use a API para acessar dados de produção: 
+3. Utilize a API para consulta dos dados:
 - Endpoint: /api/
 - Parâmetros:
   - ano: O ano dos dados de produção (por exemplo, ``2023``)
